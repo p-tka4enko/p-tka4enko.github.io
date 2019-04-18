@@ -33,6 +33,7 @@
   white-space: nowrap;
   height: 1.3rem;
   box-sizing: border-box;
+  bottom: calc(100% + 0.25rem);
 }
 .rangeslider__hint_hidden {
   visibility: hidden;
@@ -79,6 +80,9 @@
   left: -0.5625rem;
   margin-left: 0;
   margin-bottom: -0.75rem;
+}
+.rangeslider_vertical .rangeslider__hint {
+  left: calc(100% + 0.25rem);
 }
 .rangeslider_vertical .rangeslider__track-bar {
   width: 100%;
